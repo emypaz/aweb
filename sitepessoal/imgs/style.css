@@ -1,0 +1,171 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+.pagina_inteira{
+    width:100%;
+    height: 100%;
+    margin:auto;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image:url(imgs/perfil.jpeg);
+    background-size: cover ;
+}
+
+.part-dois{
+    background-color: #407088;
+    width: 50%;
+    height: 600px;
+    background-image: url(imgs/perfil2.jpeg);
+    background-size: cover ;
+    
+}
+
+p{
+    color: aliceblue;
+    margin-top: 250px;
+}
+
+.part_3{
+    background-color:#407088;
+    width: 50%;
+    height: 600px;
+}
+
+.part_4{
+    width: 100%;
+    height: 800px;
+    background-color: #132743;
+}
+.container{
+    display: flex;
+}
+
+.container2{
+    display: grid;
+    gap: 30px;
+    padding: 30px;
+    grid-template-columns: repeat(3,minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.curi{
+    background-color: #132743;
+    color: aliceblue;
+}
+
+.card{
+    display: flex;
+    width: 250px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: #407088;
+    color: aliceblue;
+    border-radius: 20px;
+    font-family: roboto;
+    text-align: center;
+}
+
+
+table{
+    width: 500px;
+    height: 250px;
+    color: #132743;
+    border: 2px solid #132743;
+    justify-items: center;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+tr{
+    color: aliceblue;
+    
+}
+
+th{
+    color: aquamarine;
+}
+
+td{
+    color: beige;
+    border: 1px solid #132743;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #407088;
+    justify-content: space-around;
+    
+}
+.link{
+    margin-top: 20px;
+    color: black;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.container3{
+    display: flex;
+    width: 100%;
+
+} 
+.part_5{
+    width: 50%;
+    height: 600px;
+    background-color: #407088;
+}
+.part_6{
+    width: 50%;
+    height: 600px;
+    background-color:#407088;
+}
+.habilidades{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 30px;
+    display: grid;
+    background-color: #132743;
+    width: 500px;
+    border-radius: 30px;
+    color: #ffff;
+    font-family: roboto;
+    text-align: center;
+}
+#edu{
+    font-size: 50px;
+    color: #ffff;
+}
+.div1{
+
+}
+.container4{
+    display: flex;
+
+}
+.part_7{
+    width: 50%;
+    height: 600px;
+    background-color: #132743;
+
+}
+.part_8{
+    width: 50%;
+    height: 600px;
+    background-color:#132743
+
+}
+

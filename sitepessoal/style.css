@@ -1,0 +1,395 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #132743;
+}
+.pagina_inteira{
+    width:100%;
+    height: 100%;
+    margin:auto;
+}
+
+
+.hero{
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(./imgs/perfil.jpeg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#nome {
+    position: relative;
+    top: 10;
+    margin-top: 0;
+    text-align: center;
+    margin-top: 450px;
+    font-size: 70px;
+    color: white;
+}
+
+.botao-conheca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 70px;
+    background-color: #407088;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+    margin-top: 360px;
+}
+
+.botao-conheca:hover {
+    background-color: #132743;
+    font-size: 20px;
+}
+
+.part-dois img{
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+p{
+    color: aliceblue;
+    margin-top: 250px;
+
+}
+.nomeemy{
+    display: flex;
+    justify-content: flex-end;
+}
+.part_3{
+    background-color: #407088;
+    width: 80%;
+    height: 650px;
+}
+.part_3 p{
+    text-align: justify;
+    width: 50%;
+    margin-left: 33%;
+}
+
+
+.part_4{
+    width: 100%;
+    height: 800px;
+    background-color: #132743;
+}
+
+.container{
+    display: flex;
+    height: 650px;
+}
+
+.container2{
+    display: grid;
+    gap: 30px;
+    padding: 30px;
+    grid-template-columns: repeat(3,minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.curi{
+    background-color: #132743;
+    color: aliceblue;
+}
+
+.card{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: #407088;
+    color: black;
+    font-family: roboto;
+    text-align: center;
+}
+
+#fotos1{
+    background-image: url(imgs/p.jpg);
+    background-size: cover;
+    height: 80%;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.texto{
+    width: 95%;
+    margin-top: 107%;
+    color: white;
+}
+
+#fotos2{
+    background-image: url(imgs/Ganatomy.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#fotos3{
+    background-image: url(imgs/xuxa.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#fotos4{
+    background-image: url(imgs/a5db52811eb8c7d8db004e6d892233ea.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+#fotos5{
+    background-image: url(imgs/bebe.jpg);
+    background-size: cover;
+    height: 80%;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+
+
+
+table{
+    width: 700px;
+    height: 300px;
+    color: black;
+    border: 2px solid black;
+    justify-items: center;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+tr{
+    color:#407088;
+    
+}
+
+th{
+    color: black;
+}
+
+td{
+    color: black;
+    border: 1px solid black;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: #407088;
+    justify-content: space-around;
+    
+}
+.link{
+    margin-top: 20px;
+    color: black;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+
+.container3{
+    display: flex;
+    width: 100%;
+
+} 
+
+.part_5{
+    width: 50%;
+    height: 600px;
+    background-color: #A0BFE0;
+}
+.part_6{
+    width: 50%;
+    height: 600px;
+    background-color:#407088;
+}
+.conteiner_01{
+        position: relative;
+        width: 100%;
+    }
+    
+.container-principal::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    background-color: #FFEFCD;
+    top:0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+    
+.texto-envolv{
+    padding: 10px 40px;
+    position: relative;
+    width:51%;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+    
+.texto-envolv::after{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    right: -10px;
+    background-color:#FFEFCD;
+    top:15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+    
+.esquerda{
+    left: 0;
+}
+    
+.direita{
+    left:50%;
+}
+    
+.direita::after{
+    left:-10px;
+}
+    
+.conteudo{
+    padding: 15px 15px 15px 17px;
+    background-color:#FFEFCD;
+    border-radius: 4px;
+}
+    
+.conteudo h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    color: black;
+    letter-spacing:1px;
+}
+    
+.conteudo p{
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 2px;
+}
+    
+#haha{
+    font-size: xx-large;
+    justify-content: center;
+}
+  
+#hab{
+    font-size: 50px;
+    color: #ffff;
+}
+.div1{
+
+}
+.container4{
+    display: flex;
+
+}
+.part_7{
+    width: 50%;
+    height: 300px;
+    background-color: #132743;
+    text-align: center;
+}
+
+.part_7 p{
+    width: 90%;
+    text-align: justify;
+    margin-top: 20%;
+    font-size: medium;
+    margin-left: 15%;
+}
+
+
+#ca{
+    color:white;
+    font-size: 30px;
+}
+
+.onda{
+    width: 100%;
+    height: 500px;
+}
+
+.h4{
+    text-align: center;
+}
+
+.titulo{
+    font-size: 50px;
+    margin-left: 400px;
+}
+
+.footer{
+    margin-left: 5px;
+    width: 100%;
+    height: 200px;
+    background-color:#6b8fa1;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+}
+.footer p{
+    margin-top: 50px;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: #132743;
+}
+.habilidades:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+
+}
+.icones{
+    color: #132743;
+    margin: 20px;
+}
+.icones:hover{
+    color:#A0BFE0;
+}
+@media  and (max-width:1200px) {
+    .part_3{
+        margin-left:20%;
+        margin: auto;
+        width: 100%;
+        font-size: 20px;
+    }
+}
+
